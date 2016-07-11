@@ -1,3 +1,7 @@
+## 1.4.22.1
+
+* Default CSRF tokens to the root path "/", fixing an issue where multiple tokens were stored in cookies, and using the wrong one led to CSRF errors [#1248](https://github.com/yesodweb/yesod/pull/1248)
+
 ## 1.4.22
 
 * Proper handling of impure exceptions within `HandlerError` values
